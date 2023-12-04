@@ -29,13 +29,13 @@ ALLOWED_HOSTS = []
 
 STATICFILES_DIRS = [
     BASE_DIR / "static",
-    "/var/www/static/",
 ]
 
 # Application definition
 
 INSTALLED_APPS = [
     "Shopping",
+    "Blogs",
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
